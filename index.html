@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+  <!--stilos-->
+    <link href="css.css" rel="stylesheet">
+    <!--APP JAVA SCRIPT-->
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class = "cronometro">
+        Cronometro
+    </div>
+    <main>
+        
+        <div class="circle">
+            <div id="stopwatch" class="stopwatch">00:00</div> 
+            <div class="buttons">
+                <div class="stop" onclick="stop()"></div>
+                <div id="PlayPause" class="paused" onclick="PlayPause()"></div>
+
+            </div>
+
+
+        </div>
+        <div id="seconds-sphere" class="seconds-sphere"> </div>
+    </main>
+    
+</body>
+</html>
